@@ -4,6 +4,8 @@
  */
 package dash;
 
+import java.awt.Color;
+
 /**
  *
  * @author user
@@ -15,6 +17,8 @@ public class Main extends javax.swing.JFrame {
      */
     public Main() {
         initComponents();
+        setBackground(new Color(0,0,0,0));
+        menu2.initMoving(Main.this);
     }
 
     /**
@@ -26,20 +30,40 @@ public class Main extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        boarder1 = new Swing.Boarder();
+        menu2 = new Component.Menu();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setUndecorated(true);
+
+        boarder1.setBackground(new java.awt.Color(255, 255, 255));
+
+        javax.swing.GroupLayout boarder1Layout = new javax.swing.GroupLayout(boarder1);
+        boarder1.setLayout(boarder1Layout);
+        boarder1Layout.setHorizontalGroup(
+            boarder1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(boarder1Layout.createSequentialGroup()
+                .addComponent(menu2, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 649, Short.MAX_VALUE))
+        );
+        boarder1Layout.setVerticalGroup(
+            boarder1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(menu2, javax.swing.GroupLayout.DEFAULT_SIZE, 451, Short.MAX_VALUE)
+        );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 668, Short.MAX_VALUE)
+            .addComponent(boarder1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 397, Short.MAX_VALUE)
+            .addComponent(boarder1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     /**
@@ -78,5 +102,7 @@ public class Main extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private Swing.Boarder boarder1;
+    private Component.Menu menu2;
     // End of variables declaration//GEN-END:variables
 }
