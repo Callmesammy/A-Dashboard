@@ -16,29 +16,13 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="ibicon" min="-2" pref="6" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="ibiname" min="-2" pref="97" max="-2" attributes="0"/>
-              <EmptySpace pref="15" max="32767" attributes="0"/>
-          </Group>
+          <EmptySpace min="0" pref="682" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="ibicon" max="32767" attributes="0"/>
-          <Component id="ibiname" alignment="0" pref="30" max="32767" attributes="0"/>
+          <EmptySpace min="0" pref="383" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
-  <SubComponents>
-    <Component class="javax.swing.JLabel" name="ibicon">
-    </Component>
-    <Component class="javax.swing.JLabel" name="ibiname">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Enteryour name"/>
-      </Properties>
-    </Component>
-  </SubComponents>
 </Form>
