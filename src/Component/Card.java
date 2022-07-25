@@ -71,7 +71,7 @@ public class Card extends javax.swing.JPanel {
         ibivalue = new javax.swing.JLabel();
         ibidescription = new javax.swing.JLabel();
 
-        ibicon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/sammy/image/icons8-final-fantasy-xiv-64_1.png"))); // NOI18N
+        ibicon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/sammy/image/flame.png"))); // NOI18N
 
         ibititle.setBackground(new java.awt.Color(255, 255, 255));
         ibititle.setFont(new java.awt.Font("Comic Sans MS", 1, 24)); // NOI18N
